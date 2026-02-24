@@ -10,6 +10,44 @@ The outcome of a machine learning algorithm is called a machine learning model, 
 And the task is to learn a function F that takes the non-target attributes X and outputs a value that approximates the target attribute, i.e. F(X)≈y. <br>
 
 - The data with the target attribute is called **"labelled"** data.
+- Used most in real-world applications.
+
+<table>
+   <thead>Examples</thead>
+   <th> Input (X) </th> 
+   <th> Output (Y) </th>
+   <th> Application </th>
+   <tr>
+      <td>email</td>
+      <td>Spam?(0/1)</td>
+      <td>Spam filtering</td>
+   </tr>
+   <tr>
+      <td>audio</td>
+      <td>text transcripts</td>
+      <td>Speech recognition</td>
+   </tr>
+   <tr>
+      <td>Language_1</td>
+      <td>Language_2</td>
+      <td>Machine translation</td>
+   </tr>
+   <tr>
+      <td>ad, user info</td>
+      <td>click? (0,1)</td>
+      <td>Online advertising</td>
+   </tr>
+   <tr>
+      <td>image, radar info</td>
+      <td>position of other cars</td>
+      <td>Self driving car</td>
+   </tr>
+   <tr>
+      <td>image of phone</td>
+      <td>defect? (0,1)</td>
+      <td>Visual inspection</td>
+   </tr>
+</table>
 
 ## Unsupervised Learning
 
@@ -40,7 +78,7 @@ F(M)∈{0,1},whereM[i][j]∈[0,255],0≤i<H,0≤j<W
 
 ## Regression Model
 
-
+- Predicting a number from infinitely many possible outputs. <br>
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/f8c46cc6-f10d-44b8-b34e-1dd7d8b5bd32" />
 
 
