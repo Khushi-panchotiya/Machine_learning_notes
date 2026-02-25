@@ -52,6 +52,7 @@ And the task is to learn a function F that takes the non-target attributes X and
 ## Unsupervised Learning
 
 --> We don't have ground truth in an unsupervised learning task.<br>
+--> We try to find patterns or Structures in the data.<br>
 One is expected to learn the underlying patterns or rules from the data, without having the predefined ground truth as the benchmark.
 
 ### Example of Unsupervised learning tasks:
@@ -67,10 +68,13 @@ One is expected to learn the underlying patterns or rules from the data, without
 *"If the output of a machine learning model is discrete values, e.g. a boolean value, we then call it a classification model. While we call the model that outputs continuous values a regression model."*
 
 ## Classification Model
-
+- classification predicts categories.
+- Small finite number of possible outputs.
+- 
 The input can be represented as a matrix M with dimensions of H×W where <br>
 --> H is the height of the photo in pixels <br>
 --> W is the width of the photo<br>
+
 Each element within the matrix is the grayscale value of each pixel in the photo, i.e. an integer value between [0,255] that indicates the intensity of colour. The expected output of the model would be a binary value [1∣0], indicating whether the photo shows a cat or not. 
 - To summarise, our cat-photo-recognition model F can be formulated as follows:<br>
 F(M)∈{0,1},whereM[i][j]∈[0,255],0≤i<H,0≤j<W
@@ -78,7 +82,7 @@ F(M)∈{0,1},whereM[i][j]∈[0,255],0≤i<H,0≤j<W
 
 ## Regression Model
 
-- Predicting a number from infinitely many possible outputs. <br>
+- Predicting a number from infinitely many possible outputs.
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/f8c46cc6-f10d-44b8-b34e-1dd7d8b5bd32" />
 
 
